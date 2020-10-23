@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <title>Hangman</title>
+</head>
+
+<body onload = displayWord(),getLives(),getHint()>
+  <div id="playbox">
+
+
+      <div class="col">
+        <h1 id="word"></h1></br>
+        <h2 id="desc"></h2>
+        <form autocomplete = "off">
+          <h1>Guess the word!</h1> <br>
+          <textarea id="guessedChar" rows = "2" cols="3"></textarea><br>
+          <button type="button" onclick="changeGame()">Check</button></br>
+        </form>
+      </div>
+      
+      <div class="col">
+        <div class = "box">
+         <p id = "lives"></p>
+        </div>
+        <p id="manualHint">To get hint press '!' on the guess box</p>
+        <div class = "box">
+         <p id = "hint"></p>
+        </div>
+      </div>
+    </div>
+
+
+
+  <p id="credit">Background image Source: pinterest (rawpixel)</p>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>

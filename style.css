@@ -1,0 +1,157 @@
+body {
+  background-image: url(./images/back.jpg);
+  height: auto;
+  background-size: cover;
+}
+
+#intro {
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+}
+
+
+#playbox {
+  background-color:gray;
+  opacity: 0.8;
+  max-width: 1100px;
+  height: 700px;
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+#desc {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+#word {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#guessedChar {
+  border-radius: 5px;
+  height: auto;
+  width: auto;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 2em;
+  text-align: center;
+  resize: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+.box {
+  background-color: black;
+  width: 150px;
+  height: 70px;
+  margin: auto;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#lives {
+  padding-top: 10px;
+  color: white;
+}
+
+#hint {
+  padding-top: 10px;
+  color: white;
+}
+
+
+#loserbox {
+  background-color: gray;
+  opacity: 0.8;
+  width: 1000px;
+  height: 700px;
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#loserimg {
+  margin-bottom: 10px;
+}
+
+#credit {
+  position: fixed;
+  bottom:0;
+  right:3px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  #playbox {
+    width: 600px;
+    height: 400px;
+    margin: 0px;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+  #word {
+    font-weight: bold;
+    margin: auto;
+    margin-left: 2px;
+  }
+
+  #desc {
+    font-size: 0.8em;
+    margin: 1px;
+  }
+  
+  #guessedChar {
+    margin-bottom: 1px;
+    font-size: 1.5em;
+    
+  }
+
+  button {
+
+    font-size: 1em;
+    padding: 1px;
+  }
+  
+  .box {
+  
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    font-size: 1em;
+
+  }
+
+  #manualHint {
+    margin: auto;
+  }
+
+  #lives {
+    padding-top: 6px;
+
+  }
+  
+  #hint {
+    padding-top: 6px;
+
+
+  }
+
+}
