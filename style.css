@@ -97,6 +97,26 @@ button {
   font-weight: bold;
 }
 
+#form {
+  margin: auto;
+  text-align: center;
+  margin-top: 300px;
+
+}
+
+#form h1 {
+  font-size: 4em;
+}
+
+#name {
+  font-size: 2em;
+  resize: none;
+}
+
+#namebutton {
+  font-size: 1em;
+}
+
 @media only screen and (max-width: 800px) {
   #playbox {
     width: 600px;

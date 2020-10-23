@@ -172,12 +172,38 @@ function changeGame(){
 
 //====================================================================
 
-function goToGame (){
+function goToHome (){
   location.replace("./index.html")
   
 }
 
 //====================================================================
 
+function goToGame (){
+  location.replace("./game.html")
+  let name = document.getElementById('nama');
+	localStorage.setItem("nama",name.value);
+  
+}
 
+//====================================================================
 
+function getLoadLose(){
+  if (typeof(Storage) !== "undefined") {
+    let nama = localStorage.getItem('nama');
+    document.getElementById('lose').innerHTML = `Oops, ${nama}. You lose!!`;
+  }
+  else {
+    document.getElementById("nama").innerHTML = "Sorry, your browser does not support Web Storage...";
+  }
+}
+
+function getLoadWin(){
+  if (typeof(Storage) !== "undefined") {
+    let nama = localStorage.getItem('nama');
+    document.getElementById('win').innerHTML = `Congrats, ${nama}. You win!!`;
+  }
+  else {
+    document.getElementById("nama").innerHTML = "Sorry, your browser does not support Web Storage...";
+  }
+}
