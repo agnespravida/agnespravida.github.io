@@ -32,7 +32,7 @@ let database = [
   ["itinerary", "a document in which the places you go to or plan to go to on a journey are listed"],
   ["juvenile", "being in the early stage of life, growth, or development"],
   ["kidney", "a number of persons or things that are grouped together because they have something in common"],
-  []]
+]
 
      
 
