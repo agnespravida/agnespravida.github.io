@@ -190,16 +190,16 @@ function goToGame (){
 
 function getLoadLose(){
   if (typeof(Storage) !== "undefined") {
-    let nama = localStorage.getItem('name');
-    document.getElementById('lose').innerHTML = `Oops, ${nama}. You lose!!`;
+    let name = localStorage.getItem('name');
+    document.getElementById('lose').innerHTML = `Oops, ${name}. You lose!!`;
   }
   
 }
 
 function getLoadWin(){
   if (typeof(Storage) !== "undefined") {
-    let nama = localStorage.getItem('name');
-    document.getElementById('win').innerHTML = `Congrats, ${nama}. You win!!`;
+    let name = localStorage.getItem('name');
+    document.getElementById('win').innerHTML = `Congrats, ${name}. You win!!`;
   }
   
 }
