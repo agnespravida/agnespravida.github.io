@@ -181,8 +181,8 @@ function goToHome (){
 
 function goToGame (){
   location.replace("./game.html")
-  let name = document.getElementById('nama');
-	localStorage.setItem("nama",name.value);
+  let name = document.getElementById('name');
+	localStorage.setItem("name",name.value);
   
 }
 
@@ -190,20 +190,16 @@ function goToGame (){
 
 function getLoadLose(){
   if (typeof(Storage) !== "undefined") {
-    let nama = localStorage.getItem('nama');
+    let nama = localStorage.getItem('name');
     document.getElementById('lose').innerHTML = `Oops, ${nama}. You lose!!`;
   }
-  else {
-    document.getElementById("nama").innerHTML = "Sorry, your browser does not support Web Storage...";
-  }
+  
 }
 
 function getLoadWin(){
   if (typeof(Storage) !== "undefined") {
-    let nama = localStorage.getItem('nama');
+    let nama = localStorage.getItem('name');
     document.getElementById('win').innerHTML = `Congrats, ${nama}. You win!!`;
   }
-  else {
-    document.getElementById("nama").innerHTML = "Sorry, your browser does not support Web Storage...";
-  }
+  
 }
