@@ -1,0 +1,36 @@
+{
+  "guitars": [
+    {
+      "id": 1,
+      "brand": "Fender",
+      "type": "Noventa Stratocaster Electric Guitar",
+      "price": 15.000000,
+      "desc": "The American Professional II Stratocaster® draws from more than sixty years of innovation, inspiration and evolution to meet the demands of today’s working player.",
+      "imgUrl":  "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0113902719_fen_ins_frt_1_rr.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Fender",
+      "type": "American Professional II Telecaster",
+      "price": 12.000000,
+      "desc": "The American Professional II Telecaster® draws from more than seventy years of innovation, inspiration and evolution to meet the demands of today’s working player.",
+      "imgUrl":  "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0113942750_fen_ins_frt_1_rr.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "Musicman",
+      "type": "John Petrucci Signature",
+      "price": 36.000000,
+      "desc": "Ernie Ball Music Man and John Petrucci are proud to celebrate a partnership that has lasted for more than two decades, introducing the world to some of the most innovative guitar designs and technology.",
+      "imgUrl":  "https://m.media-amazon.com/images/I/81wrouYX20L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "Musicman",
+      "type": "Steve Lukather Signature",
+      "price": 30.000000,
+      "desc": "The latest evolution of Steve Lukather’s signature guitar features an alder body with a figured roasted maple neck and rosewood fingerboard.",
+      "imgUrl":  "https://www.ubuy.co.id/productimg/?image=aHR0cHM6Ly9pbWFnZXMtbmEuc3NsLWltYWdlcy1hbWF6b24uY29tL2ltYWdlcy9JLzUxOERuTloyJTJCeUwuX1NTNDAwXy5qcGc.jpg"
+    }
+  ]
+}
